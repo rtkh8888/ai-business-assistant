@@ -1,3 +1,5 @@
+﻿import Link from "next/link";
+import { UrlAnalysisForm } from "@/components/url-analysis-form";
 import { getEnvStatus } from "@/lib/env";
 
 export default function HomePage() {
@@ -7,7 +9,10 @@ export default function HomePage() {
     <main>
       <div className="shell">
         <section className="hero">
-          <p className="eyebrow">Phase 0 and Phase 1 scaffold</p>
+          <div className="hero-topline">
+            <p className="eyebrow">Phase 2 UI skeleton</p>
+            <span className="status-chip">Human review only</span>
+          </div>
           <h1 className="title">AI Business Research & Outreach Assistant</h1>
           <p className="lede">
             A Next.js + Supabase MVP for researching one business website at a time, storing
@@ -15,50 +20,59 @@ export default function HomePage() {
             history.
           </p>
           <div className="status">{envStatus.message}</div>
+          <div className="hero-links">
+            <Link className="button button-secondary" href="/leads">
+              Open lead list
+            </Link>
+            <Link className="button button-secondary" href="/analyze">
+              View analysis layout
+            </Link>
+          </div>
         </section>
 
         <section className="grid">
           <article className="card half">
-            <h2>What is wired now</h2>
-            <ul>
-              <li>Next.js App Router scaffold</li>
-              <li>TypeScript and linting config</li>
-              <li>Supabase environment shape</li>
-              <li>Database schema and seed SQL</li>
-              <li>Lead repository layer</li>
-            </ul>
+            <h2>Website URL input</h2>
+            <p>
+              The form validates user input, normalizes missing schemes, and routes to the analysis
+              workspace.
+            </p>
+            <UrlAnalysisForm />
           </article>
 
           <article className="card half">
-            <h2>Architecture choices</h2>
+            <h2>Navigation</h2>
             <ul>
-              <li>Separate `lead_analyses` history table</li>
-              <li>Mutable current snapshot in `leads`</li>
-              <li>Lazy env validation so local builds do not fail without secrets</li>
+              <li>Landing page with analysis input</li>
+              <li>Lead list page for review and triage</li>
+              <li>Analysis workspace with structured placeholder panels</li>
             </ul>
           </article>
 
           <article className="card">
-            <h2>Configured schema highlights</h2>
+            <h2>Phase 2 deliverables</h2>
             <ul className="pill-list">
-              <li className="pill">lead_status enum</li>
-              <li className="pill">normalized_url unique</li>
-              <li className="pill">JSONB strengths / weaknesses</li>
-              <li className="pill">analysis history</li>
-              <li className="pill">timestamped status changes</li>
+              <li className="pill">Landing page</li>
+              <li className="pill">URL input</li>
+              <li className="pill">Analyse button</li>
+              <li className="pill">Results layout</li>
+              <li className="pill">Lead list page</li>
+              <li className="pill">Loading state</li>
+              <li className="pill">Error handling</li>
             </ul>
           </article>
 
           <article className="card">
-            <h2>Next step</h2>
+            <h2>Implementation note</h2>
             <p>
-              With Phase 0 and 1 in place, we can move into UI skeleton work knowing the storage
-              model and repository API are already locked.
+              This phase is intentionally visual and navigational. It does not yet perform website
+              extraction, scoring, or LLM analysis.
             </p>
-            <p className="mono">Workspace status: ready for Phase 2 planning</p>
+            <p className="mono">Workspace status: ready for Phase 3</p>
           </article>
         </section>
       </div>
     </main>
   );
 }
+
