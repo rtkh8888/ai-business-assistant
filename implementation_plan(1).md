@@ -1,4 +1,4 @@
-# implementation_plan.md
+﻿# implementation_plan.md
 
 # AI Business Research & Outreach Assistant (Agentic Workflow)
 
@@ -20,17 +20,17 @@ outputs - Modular architecture - Provider-agnostic LLM layer
 
 ## Tasks
 
--   [ ] Create Next.js project
--   [ ] Configure TypeScript
--   [ ] Configure Supabase
--   [ ] Configure environment variables
--   [ ] Configure linting/formatting
--   [ ] Create folder structure
--   [ ] Add README
+-   [x] Create Next.js project
+-   [x] Configure TypeScript
+-   [x] Configure Supabase
+-   [x] Configure environment variables
+-   [x] Configure linting/formatting
+-   [x] Create folder structure
+-   [x] Add README
 
 ## Testing
 
--   [ ] App runs locally
+-   [x] App runs locally
 -   [ ] Environment variables load
 -   [ ] Supabase connection succeeds
 
@@ -40,12 +40,12 @@ outputs - Modular architecture - Provider-agnostic LLM layer
 
 ## Tasks
 
--   [ ] Design Leads table
--   [ ] Create Analysis table (optional if normalized)
--   [ ] Add timestamps
--   [ ] Add status enum
--   [ ] Seed sample data
--   [ ] Repository/data access layer
+-   [x] Design Leads table
+-   [x] Create Analysis table (optional if normalized)
+-   [x] Add timestamps
+-   [x] Add status enum
+-   [x] Seed sample data
+-   [x] Repository/data access layer
 
 Suggested Lead fields: - id - website_url - business_name - industry -
 summary - weaknesses (JSON) - strengths (JSON) - recommended_service -
@@ -64,19 +64,19 @@ outreach_message - opportunity_score - status - created_at - updated_at
 
 ## Tasks
 
--   [ ] Landing page
--   [ ] Website URL input
--   [ ] Analyse button
--   [ ] Results page layout
--   [ ] Lead list page
--   [ ] Loading states
--   [ ] Error states
+-   [x] Landing page
+-   [x] Website URL input
+-   [x] Analyse button
+-   [x] Results page layout
+-   [x] Lead list page
+-   [x] Loading states
+-   [x] Error states
 
 ## Testing
 
--   [ ] Navigation works
+-   [x] Navigation works
 -   [ ] Invalid URL handled
--   [ ] Loading indicator shown
+-   [x] Loading indicator shown
 
 ------------------------------------------------------------------------
 
@@ -289,3 +289,5 @@ The project is complete when a user can:
 -   [ ] Receive personalized outreach draft
 -   [ ] Save results
 -   [ ] Review and manage leads from a dashboard
+
+
