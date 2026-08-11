@@ -1,0 +1,22 @@
+﻿# Supabase local config for CLI workflows.
+# Replace project_id with the linked Supabase project ref if you plan to use the CLI locally.
+project_id = "jagppcigpnfkbhoxvcmw"
+
+[api]
+enabled = true
+schemas = ["public"]
+extra_search_path = ["public"]
+max_rows = 1000
+
+[db]
+major_version = 15
+
+[studio]
+enabled = true
+
+[inbucket]
+enabled = false
+
+[auth]
+enabled = false
+
