@@ -75,7 +75,7 @@ outreach_message - opportunity_score - status - created_at - updated_at
 ## Testing
 
 -   [x] Navigation works
--   [ ] Invalid URL handled
+-   [x] Invalid URL handled
 -   [x] Loading indicator shown
 
 ------------------------------------------------------------------------
@@ -84,22 +84,22 @@ outreach_message - opportunity_score - status - created_at - updated_at
 
 ## Tasks
 
--   [ ] Fetch homepage
--   [ ] Parse HTML
--   [ ] Extract title
--   [ ] Extract headings
--   [ ] Extract body text
--   [ ] Extract buttons
--   [ ] Extract links
--   [ ] Remove navigation/footer/cookie noise
--   [ ] Return structured object
+-   [x] Fetch homepage
+-   [x] Parse HTML
+-   [x] Extract title
+-   [x] Extract headings
+-   [x] Extract body text
+-   [x] Extract buttons
+-   [x] Extract links
+-   [x] Remove navigation/footer/cookie noise
+-   [x] Return structured object
 
 ## Testing
 
--   [ ] Extract 10 different websites
--   [ ] Handles missing pages
--   [ ] Handles timeout
--   [ ] Clean text verified
+-   [x] Extract 10 different websites
+-   [x] Handles missing pages
+-   [x] Handles timeout
+-   [x] Clean text verified
 
 ------------------------------------------------------------------------
 
