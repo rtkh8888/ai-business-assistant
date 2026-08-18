@@ -32,7 +32,7 @@ outputs - Modular architecture - Provider-agnostic LLM layer
 
 -   [x] App runs locally
 -   [ ] Environment variables load
--   [ ] Supabase connection succeeds
+-   [x] Supabase connection succeeds
 
 ------------------------------------------------------------------------
 
@@ -289,5 +289,6 @@ The project is complete when a user can:
 -   [ ] Receive personalized outreach draft
 -   [ ] Save results
 -   [ ] Review and manage leads from a dashboard
+
 
 
