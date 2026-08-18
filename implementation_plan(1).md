@@ -31,7 +31,7 @@ outputs - Modular architecture - Provider-agnostic LLM layer
 ## Testing
 
 -   [x] App runs locally
--   [ ] Environment variables load
+-   [x] Environment variables load
 -   [x] Supabase connection succeeds
 
 ------------------------------------------------------------------------
@@ -53,10 +53,10 @@ outreach_message - opportunity_score - status - created_at - updated_at
 
 ## Testing
 
--   [ ] Insert lead
--   [ ] Update lead
--   [ ] Read lead
--   [ ] Delete lead
+-   [x] Insert lead
+-   [x] Update lead
+-   [x] Read lead
+-   [x] Delete lead
 
 ------------------------------------------------------------------------
 
@@ -289,6 +289,7 @@ The project is complete when a user can:
 -   [ ] Receive personalized outreach draft
 -   [ ] Save results
 -   [ ] Review and manage leads from a dashboard
+
 
 
 
