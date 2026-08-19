@@ -107,18 +107,18 @@ outreach_message - opportunity_score - status - created_at - updated_at
 
 ## Tasks
 
--   [ ] Detect WhatsApp
--   [ ] Detect booking links/forms
--   [ ] Detect testimonials
--   [ ] Detect contact page
--   [ ] Detect pricing
--   [ ] Detect CTA buttons
--   [ ] Produce structured findings
+-   [x] Detect WhatsApp
+-   [x] Detect booking links/forms
+-   [x] Detect testimonials
+-   [x] Detect contact page
+-   [x] Detect pricing
+-   [x] Detect CTA buttons
+-   [x] Produce structured findings
 
 ## Testing
 
--   [ ] Rules validated against known sites
--   [ ] False positives reviewed
+-   [x] Rules validated against known sites
+-   [x] False positives reviewed
 
 ------------------------------------------------------------------------
 

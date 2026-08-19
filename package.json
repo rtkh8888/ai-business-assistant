@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "format": "prettier --check .",
-    "format:write": "prettier --write ."
+    "format:write": "prettier --write .",
+    "smoke:rules": "tsx scripts/rules-smoke.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.56.0",
